@@ -5,7 +5,7 @@ import LoaderSpinner from "./app/components/Loading";
 import ProductCard from "./app/components/PizzaCard";
 export default function App() {
  const { getPizzas, pizzas, loading } = useAxios();
-
+ console.log("object");
  return (
   <View style={styles.container}>
    <Button
